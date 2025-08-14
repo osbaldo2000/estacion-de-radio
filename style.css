@@ -1,0 +1,38 @@
+ body {
+    background-color: black;
+    text-align: center;
+}
+
+.header {
+    grid-area: a;
+    background-color: #4040e6;
+}
+
+.cstrEmbed {
+    grid-area: b;
+    background-color: #b96dff;
+}
+
+.sidebar {
+    grid-area: c;
+    background-color: #860ff6;
+}
+
+.footer {
+    grid-area: d;
+    background-color: #fa2464;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+
+.grid-container {
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "a a a a"
+        "b b c c"
+        "b b c c"
+        "d d d d";
+}
