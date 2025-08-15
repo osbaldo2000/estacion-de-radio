@@ -10,17 +10,16 @@
 }
 
 .section2 {
-    align-items: center;
-     background-image: url("./fondo\ section.jpg");
-    background-size: cover;
-    background-position: right;
-    
+    align-items: center;    
 }
 
 .cstrEmbed {
 }
 
 .sidebar {
+    background-image: url("./fondo\ 2.jpg");
+    background-size: cover;
+    background-position: right;
  }
 
 img {
