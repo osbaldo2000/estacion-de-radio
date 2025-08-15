@@ -6,16 +6,26 @@
 .header {
     grid-area: a;
     background-color: #4040e6;
+    width: 100%;
+}
+
+.section2 {
+    align-items: center;
+     background-image: url("./fondo\ section.jpg");
+    background-size: cover;
+    background-position: right;
+    
 }
 
 .cstrEmbed {
-    grid-area: b;
-    background-color: #b96dff;
 }
 
 .sidebar {
-    grid-area: c;
-    background-color: #860ff6;
+ }
+
+img {
+    height: 50vh;
+    width: 50vh;
 }
 
 .footer {
@@ -24,15 +34,7 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 10px;
+    width: 100%;
 }
 
-.grid-container {
-    height: 100vh;
-    display: grid;
-    gap: 10px;
-    grid-template-areas:
-        "a a a a"
-        "b b c c"
-        "b b c c"
-        "d d d d";
-}
+
